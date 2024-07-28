@@ -1,3 +1,6 @@
 <template>
-    
+    <lightning-card class="slds-box"  title="Grand component">
+        <h1>Text entered: {grandText}</h1>
+        <c-comp-parent onpassdata={grandPHandler}></c-comp-parent>
+    </lightning-card>
 </template>

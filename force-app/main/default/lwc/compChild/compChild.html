@@ -1,3 +1,11 @@
 <template>
-    
+    <lightning-card title="Child Comp" class="slds-box slds-border_around" >
+    <lightning-layout>
+        <lightning-layout-item>Text: Child Component</lightning-layout-item>
+        <lightning-layout-item >
+            <lightning-input lwc:ref="inp" label="Enter text" name="text"></lightning-input>
+        </lightning-layout-item>
+        <lightning-layout-item><lightning-button label="Submit" onclick={submitHandler}></lightning-button></lightning-layout-item>
+    </lightning-layout>
+</lightning-card>
 </template>

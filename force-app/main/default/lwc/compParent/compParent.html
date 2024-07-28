@@ -1,3 +1,7 @@
 <template>
-    
+    <lightning-card class="slds-box" title="Parent Component"> 
+        <h2>Text Entered: {text}</h2>
+
+        <c-comp-child onpassdata={dataHandler}></c-comp-child>
+    </lightning-card>
 </template>
